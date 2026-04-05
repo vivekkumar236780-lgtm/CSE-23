@@ -1,4 +1,5 @@
-console.log("hello world")
+console.log("hello world");
+console.log("I love JavaScript");
 // variable var;
 {
     var b=30;  //scope of var is global
