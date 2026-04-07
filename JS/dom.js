@@ -26,3 +26,10 @@ function changetextColor(){
     para.style.backgroundColor="#"+Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
 }
 para.addEventListener('mouseover',changetextColor);
+let num=prompt("Enter a number");
+if(num %3 ==0){
+    alert(num + " is multiple of 3"); //use of prompt and alert function in JS
+}
+else{
+    alert(num + " is not multiple of 3");
+}

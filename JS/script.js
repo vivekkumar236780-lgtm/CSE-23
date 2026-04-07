@@ -35,4 +35,8 @@ let cond2 = p==6; //true
 console.log(cond1 && cond2); //logical and operator give true if both condition are true
 console.log(p<q || p==6); //logical or operator give true if any one condition is true
 console.log(!cond1); //logical not operator does inverse of condition
- 
+
+//terinary operator
+let age=25;
+let result=age>=18 ? "adult" : "minor"; //if condition is true then adult will be assigned to result variable otherwise minor will be assigned
+console.log(result);
